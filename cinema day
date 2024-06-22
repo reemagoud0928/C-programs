@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a%10<5){
+        int n=(a/10)*10;
+        printf("%d",n);
+    }
+    else {
+        int n=(a/10)*10;
+            int b=n+10;
+            printf("%d",b);
+    }
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
